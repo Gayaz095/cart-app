@@ -1,0 +1,49 @@
+.container {
+    border: 2px solid black;
+}
+
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.product-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.to-cart {
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
